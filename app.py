@@ -11,7 +11,7 @@ model = pickle.load(open("model.pkl", "rb"))
 st.set_page_config(page_title="Car Price Prediction", page_icon="🚗")
 
 st.title("🚗 Car Price Prediction")
-st.image('img1.jpg' , caption="car image " , use_container_width=True)
+st.image('imag1.jpg' , caption="car image " , use_container_width=True)
 st.write("Enter the car details below.")
 
 # ---------- Inputs ----------
